@@ -3,11 +3,14 @@ import TelegramBot from 'node-telegram-bot-api'
 import axios from 'axios'
 import { loadEnvFile } from 'node:process'
 import { log, getResponse } from './lib/utils.js'
+import fs, { existsSync } from 'node:fs'
 
-loadEnvFile('.env')
+const envFile = '.env'
 
-const token = process.env.TELEGRAM_BOT_API_TOKEN
-const bot = new TelegramBot(token, {polling: true})
+if(existsSync(envFile)) loadEnvFile(envFile)
+
+const tgToken = process.env.TELEGRAM_BOT_API_TOKEN
+const bot = new TelegramBot(tgToken, {polling: true})
 
 const user = {
   id: null
