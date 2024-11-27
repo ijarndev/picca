@@ -1,5 +1,5 @@
 # Piccato
-This simple telegram bot will send you cute cat pictures adn never complain about it.
+This simple Telegram bot will send you cute cat pictures and never complain about it.
 
 ## Installation
 Search for @BotFather in your Telegram app and create a new bot. You'll get a token once finished the configuration.
