@@ -5,7 +5,7 @@ import { loadEnvFile } from 'node:process'
 import { log, getResponse } from './lib/utils.js'
 import fs, { existsSync } from 'node:fs'
 
-const envFile = '.env1'
+const envFile = '.env'
 
 if(existsSync(envFile)) {
   loadEnvFile(envFile)
