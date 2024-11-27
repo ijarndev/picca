@@ -5,9 +5,13 @@ import { loadEnvFile } from 'node:process'
 import { log, getResponse } from './lib/utils.js'
 import fs, { existsSync } from 'node:fs'
 
-const envFile = '.env'
+const envFile = '.env1'
 
-if(existsSync(envFile)) loadEnvFile(envFile)
+if(existsSync(envFile)) {
+  loadEnvFile(envFile)
+} else {
+  throw new Error('Missing env file')
+}
 
 const tgToken = process.env.TELEGRAM_BOT_API_TOKEN
 const bot = new TelegramBot(tgToken, {polling: true})
