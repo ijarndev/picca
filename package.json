@@ -1,0 +1,19 @@
+{
+  "name": "verytest-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bot": "node --no-deprecation --watch src/bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "jsdom": "^24.0.0",
+    "node-telegram-bot-api": "^0.65.1"
+  },
+  "type": "module"
+}

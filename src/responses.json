@@ -1,0 +1,18 @@
+[
+    {
+        "key": "bot_init",
+        "value": "¡Hola! Bienvenido a Piccat Bot 😺, aquí están los comandos disponibles: \n\n/cat - Obtén una fotogato aleatoria :D"
+    },
+    {
+        "key": "bot_image_sent",
+        "value": "😺 ¡Mira lo que encontré!"
+    },
+    {
+        "key": "bot_unknown_command",
+        "value": "😿 Lo siento, no conozco ese comando. Si te gustaría ver una nueva funcionalidad puedes sugerírselo a @jarndev ☝🤓"
+    },
+    {
+        "key": "bot_searching_image",
+        "value": "🔍🐈 Buscando fotogato..."
+    }
+]
