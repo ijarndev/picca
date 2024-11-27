@@ -1,7 +1,7 @@
 [
     {
         "key": "bot_init",
-        "value": "¡Hola! Bienvenido a Piccat Bot 😺, aquí están los comandos disponibles: \n\n/cat - Obtén una fotogato aleatoria :D"
+        "value": "¡Hola! Bienvenido a Piccato Bot 😺, aquí están los comandos disponibles: \n\n/cat - Obtén una fotogato aleatoria :D"
     },
     {
         "key": "bot_image_sent",
